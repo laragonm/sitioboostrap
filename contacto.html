@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MAN FILMS</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	<link href="css/estilos.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#2FC9FF">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png" alt="PELÍCULA"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="equipo.html">Nuestro Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
+<!--
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+-->
+        </div>
+      </div>
+    </nav>
+
+    <hr>
+    <h2 class="text-center">CONTACTO</h2>
+    <hr>
+    <div class="container">
+     <div class="row">
+		<div class="col-lg-8" style=" height: 600px">
+			<strong>Ubicación: </strong>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.886521046499!2d-86.25176613675053!3d12.119916207476942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73fe193f9e04d3%3A0xd8ea42ea21ee1e65!2sPal%C3%AD%20Altamira!5e0!3m2!1ses!2sni!4v1648314714774!5m2!1ses!2sni" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+		<div class="col-lg-4">
+        <div id="after_submit"></div>
+          <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+            <br>
+            <div class="row">
+              <label class="required" for="name">Nombre:</label><br />
+              <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+              <span id="name_validation" class="error_message"></span>
+            </div>
+            <br>
+            <div class="row">
+              <label class="required" for="email">Email:</label><br />
+              <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+              <span id="email_validation" class="error_message"></span>
+            </div>
+            <br>
+            <div class="row">
+              <label class="required" for="message">Tu Mensaje:</label><br />
+              <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+              <span id="message_validation" class="error_message"></span>
+            </div>
+              <br>
+              <a type="button" href = "mailto: luisaragmor@gmail.com">Enviar Email</a>
+          </form>
+      	</div>
+	  </div>
+    </div>
+    <hr>
+	<hr>
+    <div class="container text-white bg-dark p-4">
+      <div class="row">
+        <div class="col-6 col-md-8 col-lg-7">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.886521046499!2d-86.25176613675053!3d12.119916207476942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73fe193f9e04d3%3A0xd8ea42ea21ee1e65!2sPal%C3%AD%20Altamira!5e0!3m2!1ses!2sni!4v1648314714774!5m2!1ses!2sni" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-4 col-lg-5 col-6">
+          <address>
+            <strong>Managua, Nicaragua</strong><br>
+            Altamira 2 cuadras al lago y 1 cuadra arriba<br>
+            <abbr title="Phone">Teléfono:</abbr> (505) 8414-5150
+          </address>
+          <address>
+            <strong>Correo</strong><br>
+            <a href="mailto:#">luisaragmor@gmail.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © Todos los derechos reservados. Luis Aragón</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.carousel-inner .carousel-item.active .d-block.w-100.slide {
+	width: 100%;
+    height: 500px;
+}
+.carousel-item .carousel-caption.d-none.d-md-block h5 {
+    color: #00FFD4;
+}
+.container .navbar-brand .logo {
+    width: 70px;
+    height: 70px;
+}
+.container iframe {
+    width: 100%;
+}
+.col-md-4.pb-1.pb-md-0 .card .card-img-top {
+    height: 200px;
+    width: 100%;
+}
+
+.mr-3{
+    width: 100px;
+    height: 125px;
+}
+
+.cajas {
+	display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.divT {
+	display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+h2 {
+	color: black;
+}
+
+h2:hover {
+	color: blue;
+	font-weight: bolder; 
+}
+
+.pel {
+-webkit-transition:all .9s ease; /* Safari y Chrome */
+-moz-transition:all .9s ease; /* Firefox */
+-o-transition:all .9s ease; /* IE 9 */
+-ms-transition:all .9s ease; /* Opera */
+width:100%;
+}
+
+.pel:hover {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+
+.pel {/*Ancho y altura son modificables al requerimiento de cada uno*/
+width:300px;
+height:180px;
+overflow:hidden;
+}#textNosotros {
+    text-align: justify;
+    font-weight: bolder;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+#divEquipo {
+    color: #00A9A1;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}
